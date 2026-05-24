@@ -1,9 +1,12 @@
 import "./App.css";
-import Translator from "./components/Translator.jsx";
+
+import Header from "./components/Header";
+import Translator from "./components/Translator";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <Header />
       <Translator />
     </div>
   );
