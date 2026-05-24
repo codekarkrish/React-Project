@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.row1 {
+  width: calc(100% - 10px);
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select {
+  width: calc(50% - 20px);
+  line-height: 40px;
+  font-size: 14px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  height: 40px;
+  padding-left: 18px;
+  color: #1a0dab;
+  cursor: pointer;
+  outline: none;
+}
+
+.reversesvg {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #6d9eed;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 10px);
+  max-width: 650px;
+  margin-top: 20px;
+}
+
+.inputText {
+  width: calc(50% - 20px);
+  position: relative;
+}
+
+.outputText {
+  width: calc(50% - 20px);
+  height: 169px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 8px;
+  overflow: auto;
+  background: #edeff0;
+  text-align: left;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+}
+
+.removeinput {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+.row3 {
+  width: calc(100% - 10px);
+  max-width: 650px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #6d9eed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+
+@media screen and (max-width: 500px) {
+  .row2 {
+    flex-direction: column;
+  }
+
+  .inputText,
+  .outputText {
+    width: 100%;
+  }
+
+  .outputText {
+    margin-top: 20px;
+  }
+
+  .row1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "en": { "name": "English" },
+  "ne": { "name": "Nepali" },
+  "hi": { "name": "Hindi" },
+  "fr": { "name": "French" },
+  "ja": { "name": "Japanese" },
+  "ko": { "name": "Korean" },
+  "es": { "name": "Spanish" },
+  "de": { "name": "German" },
+  "zh": { "name": "Chinese" },
+  "ru": { "name": "Russian" }
+}
